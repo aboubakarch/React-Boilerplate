@@ -1,0 +1,72 @@
+@import "./colors.scss";
+
+//  ALL CLASSES HEADS
+//  =================
+//  1- BUTTON CLASSES
+//  2- INPUT CLASSES
+
+/*  ================================= */
+/*          BUTTON CLASSES            */
+/*  ================================= */
+
+.btn {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  margin: 10px;
+  outline: none;
+  padding: 6px 14px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.btn-primary {
+  background: $primary;
+  color: $white;
+}
+
+.btn:hover {
+  background: $medium;
+}
+.btn-secondary {
+  background: $secondary;
+  color: $white;
+}
+
+/*  ================================= */
+/*          BUTTON CLASSES END        */
+/*  ================================= */
+
+// -------------------------------------
+
+/*  ================================= */
+/*          INPUT CLASSES             */
+/*  ================================= */
+
+.input {
+  background: $light;
+  border: 1px solid $medium;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 10px;
+  outline: none;
+  padding: 12px 10px;
+  width: 20%;
+}
+
+.input-form {
+  margin: 10px 10px 5px;
+}
+
+.input-validation-error {
+  color: $danger;
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+/*  ================================= */
+/*        INPUT CLASSES END           */
+/*  ================================= */

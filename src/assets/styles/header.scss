@@ -1,0 +1,26 @@
+@import "./colors.scss";
+
+.top-bar {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  border-bottom: 1px solid $light;
+  width: 100%;
+  .top-bar__container {
+    align-self: center;
+    display: flex;
+    width: 80%;
+    .container__logo {
+      flex-grow: 1;
+    }
+    .container__menu {
+      display: flex;
+      flex-grow: 3;
+      .menu__item {
+        color: inherit;
+        margin-left: 10px;
+        text-decoration: none;
+      }
+    }
+  }
+}
